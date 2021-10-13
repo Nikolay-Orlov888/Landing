@@ -1,0 +1,17 @@
+.line {
+  margin: auto;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #58bebf;
+  color: #58bebf;
+  height: 2px;
+  width: 50px;
+
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: 1200px) {
+    margin-bottom: 39px;
+  }
+}

@@ -1,0 +1,29 @@
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #1b1b1b;
+
+  @media (min-width: 768px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+}
+
+.footer-copyright {
+  font-size: 16px;
+  font-weight: 200;
+  color: $white;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 12px;
+  }
+}
